@@ -1,0 +1,47 @@
+{
+  "name": "secure-susie",
+  "version": "0.1.0",
+  "description": "A simple Slack integration that gets OAUTH token",
+  "homepage": "https://github.com/Xuan0517/GetSlockToken",
+  "author": {
+    "name": "Xuan",
+    "email": "jx0517@hotmail.com",
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "prestart": "eslint *.js",
+    "start": "node --harmony index.js"
+  },
+  "keywords": [
+    "slack,",
+    "bot,",
+    "oauth"
+  ],
+  "dependencies": {
+    "cfenv": "^1.0.3",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "node-etcd": "^5.0.3",
+    "pug": "^2.0.0-beta6",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {
+    "eslint": "*"
+  },
+  "eslintConfig": {
+    "env": {
+      "mocha": true,
+      "node": true
+    }
+  },
+  "license": "IBM Internal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xuan0517/GetSlackToken"
+  },
+  "bugs": {
+    "url": "https://github.com/Xuan0517/GetSlackToken/issues"
+  }
+}

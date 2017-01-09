@@ -1,0 +1,14 @@
+---
+applications:
+- name: DedicatedDeployment
+  command: node index.js
+  path: .
+  memory: 128M
+  domain: mybluemix.net
+  services:
+    - etcd
+  env:
+    KEYPATH: /susie-keys
+    OAUTHCLIENT: '2615465966.117650638130'
+    OAUTHSECRET: c4a6d7cdc866adb672575fc7b4951239
+    REDIRECTURI: 'https://dedicateddeployment.mybluemix.net/auth'
