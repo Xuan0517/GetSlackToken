@@ -6,6 +6,6 @@ applications:
   memory: 128M
   domain: mybluemix.net
   env:
-    OAUTHCLIENT: '2615465966.117650638130'
-    OAUTHSECRET: c4a6d7cdc866adb672575fc7b4951239
+    OAUTHCLIENT: '2615465966.nnnnnnnnnnnn'
+    OAUTHSECRET: c4a6d7cdc866adb67257xxxxxxxxxxxx
     REDIRECTURI: 'https://dedicateddeployment.mybluemix.net/auth'
