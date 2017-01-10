@@ -27,4 +27,7 @@ Node.js 6.9.1 (with Harmony) with a sprinkle of eslint to keep it sane, Express/
 ```
 
 Refer to: https://github.ibm.com/jtpape/secure-susie
+<<<<<<< HEAD
 
+=======
+>>>>>>> d0bb595e6f5d8975ef0a79123a5dcb28146653da
