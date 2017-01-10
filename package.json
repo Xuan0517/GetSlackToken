@@ -1,5 +1,5 @@
 {
-  "name": "secure-susie",
+  "name": "GetSlackToken",
   "version": "0.1.0",
   "description": "A simple Slack integration that gets OAUTH token",
   "homepage": "https://github.com/Xuan0517/GetSlockToken",
