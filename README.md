@@ -15,7 +15,7 @@ An example slack integration that uses OAUTH for authentication and generate tok
 5. Click on `Bot users`. Create a bot user and give it a name.
 6. Open `manifest.yml` and change the `name` attribute something of your choosing (maybe the name you picked for your Slack App).
 7. If you're deploying your app to the US South region of Bluemix, you won't need to change your `domain` value. If you're deploying to the United Kingdom region, change the `domain` value to `eu-gb.mybluemix.net`. If you're using the Sydney region, make `domain` set to `au-syd.mybluemix.net`.
-8. Last thing for the manifest: Update the `REDIRECTURI`, `OAUTHCLIENT` and `OAUTHSECRET` environment variables to match the `Client ID` and `Client Secret` values you plucked from __step 3__ above. 
+8. Last thing for the manifest: Update the `REDIRECTURI`, `OAUTHCLIENT` and `OAUTHSECRET` environment variables to match the `Client ID` and `Client Secret` values you plucked from __step 2__ above. 
 9. You should now be ready to push your project to Bluemix using the `cf push` command.
 
 Refer to: https://github.ibm.com/jtpape/secure-susie
