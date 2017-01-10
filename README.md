@@ -2,8 +2,9 @@
 An example slack integration that uses OAUTH for authentication and generate token
 
 ### Preparation
-Clone this repository
-Login to IBM Bluemix, verify if you can create App in the space where you'll be running your code
+---
+1. Clone this repository
+2. Login to IBM Bluemix, verify if you can create App in the space where you'll be running your code
 
 ### Getting Started
 ---
